@@ -1,0 +1,6 @@
+# 忽略idea
+
+.idea/*
+
+# 忽略example
+examples/*
