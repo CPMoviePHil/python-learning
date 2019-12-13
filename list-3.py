@@ -1,0 +1,5 @@
+# print(range(1, 20))
+new_list = list(range(1, 20))
+print(new_list)
+new_list2 = ' '.join(['self', '1', '2'])
+print(new_list2)
