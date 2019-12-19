@@ -10,16 +10,17 @@ user = {
 print('age' in user)
 print(user.get('country'))
 print('name' in user.keys())
-
+print('Suzuki' in user)
+print('----------------------------------------------------------------')
 # 測試物件user中的values
 print(20 in user.values())
-
+print('----------------------------------------------------------------')
 # 更新物件user
 user.update({'age': 48})
 print(user['age'])
 user.update({'country': 'japan'})
 print(user)
-
+print('----------------------------------------------------------------')
 # 對user中的key和value操作
 print(user.items())
 print('age' in user.items())
@@ -27,3 +28,4 @@ print(user.pop('name'))
 print(user)
 print(user.popitem())
 print(user)
+print('----------------------------------------------------------------')
