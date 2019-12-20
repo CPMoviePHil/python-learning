@@ -14,3 +14,6 @@ user2 = {
 print(f'user2[(1,2)]:{user2[(1,2)]}')
 print(f'user2.keys():{user2.keys()}')
 print(f'user.keys():{user.keys()}')
+print(f'my_tuple[1::]:{my_tuple[1::]}')
+print(f'my_tuple[1:2]:{my_tuple[1:2]}')
+
