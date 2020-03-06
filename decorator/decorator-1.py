@@ -29,3 +29,9 @@ def test_2():
 print(test_2())
 # decorator做的事情22-24行，跟16-19行做的事情一樣
 # 只是為了讓人更容易閱讀程式才用Decorator包著
+# 當執行outside_function的時候，只是把inside_function的定義傳回過去
+# 像是上面傳給了alpha，然後執行alpha的時候
+# 是執行了inside_function的定義
+# 只是inside_function這個function含有func << 這個function定義的暫存記憶
+# 所以執行inside_function的時候，能執行func
+# 而func執行過後，回傳看func() < 回傳什麼
