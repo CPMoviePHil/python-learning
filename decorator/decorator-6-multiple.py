@@ -27,3 +27,5 @@ def useless_func():
 
 useless_func()
 # useless_func = time_measure(print_func_name(useless_func))
+# useless_func會先吃到print_func_name此decorator等定義
+# 然後才吃到time_measure等decorator的定義
